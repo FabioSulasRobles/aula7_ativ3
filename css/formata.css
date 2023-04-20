@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    width: 644px;
+    margin: auto;
+}
+
+#primeiracaixa{
+    height: 726px;
+    display: inline-block;
+    width: 644px;
+}
+aside{
+    width: 180px;
+    float: left;
+    height: 100%;    
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0 12px 12px 0
+}
+aside div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+aside div p{
+    font-size: 18pt;
+    text-align: center;
+    color: rgb(0, 81, 255)
+}
+#planos{
+    width: 450px;
+    float: left;
+    margin-left: 5px;
+}
+#form{
+    clear: both;
+}
+#claroo, #oii{
+    padding: 10px;
+    border-radius: 14px;
+}
+#claroo{
+    border: 2px solid rgb(255, 0, 0, 0.75);
+    box-shadow: 8px 8px 6px rgb(255, 0, 0, 0.4)
+}
+#oii{
+    border: 2px solid rgb(255, 255, 0);
+    box-shadow: 5px 5px 6px rgb(252, 235, 1);
+    margin-top: 15px;
+}
+#claroo p, #oii p{
+    line-height: 18px;
+}
+h4{
+    font-weight: 600;
+}
+.valores{
+    margin: 20px 0;
+}
+ul{
+    margin: 0 0 20px 40px;
+}
+#form{
+    width: 100%;
+    margin-top: 12px;
+    border: 1px solid black;
+    border-radius: 0 12px 12px 12px;
+    width: 644px;
+    padding: 15px 15px 5px 15px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.input-area{
+    display: flex;
+    justify-content: center;
+}
+legend{
+    text-align: center;
+}
+footer{
+    width: 644px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 12px 12px 0 0;
+    padding: 5px 0
+}
